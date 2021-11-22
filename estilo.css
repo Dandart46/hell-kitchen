@@ -1,0 +1,247 @@
+html, body{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: url('img/fondohell.jpg');
+  background-attachment: fixed;
+  transition: ease-in-out 0.5s;
+}
+hr{
+  width: 30%;
+  height: 2px;
+  border: none;
+  background-color: red;
+}
+#imagen, .contenido, #catalogo, #mapa, #formulario, #footer{
+  border: solid 5px black;
+  box-sizing: border-box;
+}
+#cabecera{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+}
+#botonarriba{
+  float: left;
+  transition: transform 1s;
+}
+#botonarriba:hover{
+  transform: scale(1.2); 
+}
+#menu{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: right;
+  word-spacing: 50px;
+  padding: 20px;
+}
+#menu a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  transition: ease-in-out 0.2s;
+}
+#menu a:hover{
+  color:#ce0404;
+}
+button{
+  margin: -10px;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+#imagen{
+  background-image: url('img/hellcabecera.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#titulogordo{
+  margin-top: 0px;
+  width: 100%;
+  padding-top: 200px;
+  color: white;
+  text-align: center;
+  font-size: 10vw;
+  font-family: Vollkorn;
+  font-style: italic;
+  text-shadow: 5px 5px #2b2b2b;
+}
+#info{
+  width: 100%;
+  height: 300px;
+}
+.contenido{
+  min-width: 100%;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contenido h1{
+  margin-left: 10px;
+  color: white;
+  opacity: 1;
+  position: relative;
+}
+.contenido h4{
+  margin-left: 10px;
+  color: white;
+  position: relative;
+  opacity: 1;
+}
+.contenido#uno{
+  background-image: url('img/cosacomicph.png');
+}
+.contenido#dos{
+  background-image: url('img/conferenciaph.png');
+}
+#catalogo{
+  height: 600px;
+  background-color: white;
+  width: 100%;
+  background-image: url('img/planchaman.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right;
+}
+.titulin{
+  font-family: Vollkorn;
+  font-size: 3vw;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 40px;
+  margin: 0px;
+}
+#productasos{
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+  height: 700px;
+  width: 100%;
+}
+.producto{
+  width: 150px;
+  height: 300px;
+  margin: 40px;
+  display: inline-block;
+}
+.producto img{
+  border: solid 2px black;
+  transition: transform .2s;
+}
+.producto img:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+#mapa{
+  width: 100%;
+  height: 400px;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
+#formulario{
+    text-align: center;
+    background-image: url('img/daredovil.png');
+    background-color: white;
+    background-position: center; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: gray;
+    width: 100%;
+    height: 1100px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+input{
+    background-color: black;
+    color: white;
+    width: 30%;
+    border: none;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.boton{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  margin-top: 0px;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 1660px){
+  #catalogo{
+    height: 1000px;
+  }
+}
+@media (max-width: 950px){
+  .titulin{
+  font-size: 30px;
+}
+  #catalogo{
+    height: 1300px;
+  }
+}
+@media (max-width: 650px){
+  .contenido#uno{
+  background-image: url('img/cosacomicph2.png');
+}
+.contenido#dos{
+  background-image: url('img/conferenciaph2.png');
+}
+}
+@media (max-width: 515px){
+  #menu a{
+  display: none;
+}
+  #botonarriba{
+    float: none;
+  }
+  #menu{
+    text-align: center;
+  }
+  #cabecera{
+  height: 100px;
+}
+  #botonarriba{
+  transform: scale(2);
+  margin: 15px;
+}
+  #botonarriba:hover{
+    transform: scale(2);
+  }
+}
+@media (max-width: 490px){
+  #catalogo{
+    height: 2800px;
+  }
+}
