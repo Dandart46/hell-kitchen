@@ -1,17 +1,19 @@
-  <!DOCTYPE html>
-<html lang="en" >
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>Hell's Kitchen</title>
-    <meta charset="UTF-8">
-    <script src="validarformulario.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/script.js"></script>
+  <title>Hell's Kitchen</title>
 </head>
+
 <body>
   <div id="cabecera">
     <nav id="menu">
-      <button onclick="scrollar(0)" id="botonarriba" value="pulsado"><img src="img/logohk.png" alt="" width="40" height="40"></button>
+      <button onclick="scrollar(0)" id="botonarriba" value="pulsado"><img src="assets/logohk.png" alt="" width="40"
+          height="40"></button>
       <a href="#uno">Information</a>
       <a href="#catalogo">Catalog</a>
       <a href="#formulario">Register</a>
@@ -19,109 +21,113 @@
   </div>
   <div id="imagen">
     <h1 id="titulogordo">HELL'S KITCHEN</h1>
->  </div>
-<div id="info">
+    >
   </div>
-<div class="contenido" id="uno">
+  <div id="info">
+  </div>
+  <div class="contenido" id="uno">
 
-</div>
-<div class="contenido" id="dos">
-    
-</div>
-<div id="catalogo">
-  <h2 class="titulin">NEW ARRIVALS</h2>
-  <hr>
-  <div id="productasos">
-  <div class="producto">
-    <img src="img/captainamerica.jpg" alt="" width="170" height="250">
   </div>
-  <div class="producto">
-    <img src="img/xmen.jpg" width="170" alt="" height="250">
+  <div class="contenido" id="dos">
+
   </div>
-  <div class="producto">
-    <img src="img/blackpanther.jpg" alt="" width="170" height="250">
-  </div>
-  <div class="producto">
-    <img src="img/spiderman.png" alt="" width="170" height="250">
-  </div>
-  <div class="producto">
-    <img src="img/captainmarvel.jpg" alt="" width="170" height="250">
-  </div>
-  <div class="producto">
-    <img src="img/polo.jpg" width="170" alt="" height="250">
-  </div>
-  <div class="producto">
-    <img src="img/tortilla.png" width="170" alt="" height="250">
-  </div>
-</div>
-</div> 
-<div id="mapa">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24175.65210692698!2d-74.01110392795246!3d40.76298118199169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25850a4606051%3A0x1976b26060ef9a02!2sHell&#39;s+Kitchen%2C+Nueva+York%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1520514002915" style="border:0" allowfullscreen></iframe>
-</div>
-<div id="formulario">
-        <form name="formulario" method="post" onsubmit="return validacion();">
-          <h1>Register</h1>
-            Name
-            <br>
-            <input type="text" id="nombre" name="nombre">
-            <br>
-            Last Name
-            <br>
-            <input type="text" id="apellido" name="apellido">
-            <br>
-            ID
-            <br>
-            <input type="text" id="dni" name="dni">
-            <br>
-            Phone Number
-            <br>
-            <input type="number" id="telefono" name="telefono">
-            <br>
-            Email
-            <br>
-            <input type="email" id="email" name="email">
-            <br>
-            Password
-            <br>
-            <input type="password" id="password" name="password">
-            <br>
-            Agree the terms and conditions
-            <br>
-            <input type="checkbox" id="aceptar" name="aceptar">
-            <br>
-            <input type="submit" class="boton" name="inscribirse" value="Register">
-            <br>
-        </form>
-        <hr>
-        <form name="formulario" method="post" onsubmit="return validacionlog();">
-          <h1>Login</h1>
-            Email
-            <br>
-            <input type="email" id="email1" name="email">
-            <br>
-            Password
-            <br>
-            <input type="password" id="password1" name="password">
-            <br>
-            <input type="submit" class="boton" name="login" value="Login">
-            <br>
-        </form>
+  <div id="catalogo">
+    <h2 class="titulin">NEW ARRIVALS</h2>
+    <hr>
+    <div id="productasos">
+      <div class="producto">
+        <img src="assets/captainamerica.jpg" alt="" width="170" height="250">
+      </div>
+      <div class="producto">
+        <img src="assets/xmen.jpg" width="170" alt="" height="250">
+      </div>
+      <div class="producto">
+        <img src="assets/blackpanther.jpg" alt="" width="170" height="250">
+      </div>
+      <div class="producto">
+        <img src="assets/spiderman.png" alt="" width="170" height="250">
+      </div>
+      <div class="producto">
+        <img src="assets/captainmarvel.jpg" alt="" width="170" height="250">
+      </div>
+      <div class="producto">
+        <img src="assets/polo.jpg" width="170" alt="" height="250">
+      </div>
+      <div class="producto">
+        <img src="assets/tortilla.png" width="170" alt="" height="250">
+      </div>
     </div>
-<div  class="footer">
-  <h4>985621458</h4>
-  <hr>
-  <div id="social">
-  <img class="imagensocial" src="img/tuirer.png" alt="" width="25" height="25">
-  <h4>@HellsKitchen</h4>
-  <img class="imagensocial" src="img/feis.png" alt="" width="25" height="25">
-  <h4>HellsKitchen</h4>
-  <img class="imagensocial" src="img/insta.png" alt="" width="25" height="25">
-  <h4>Hell'sKitchen</h4>
-</div>
-  <hr>
-  <h4>HellsKitchen@gmail.com</h4>
-  <hr>
-  <h4>&copy; Hell's Kitchen</h4>
-</div>
-  </body>
+  </div>
+  <div id="mapa">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24175.65210692698!2d-74.01110392795246!3d40.76298118199169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25850a4606051%3A0x1976b26060ef9a02!2sHell&#39;s+Kitchen%2C+Nueva+York%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1520514002915"
+      style="border:0" allowfullscreen></iframe>
+  </div>
+  <div id="formulario">
+    <form name="formulario" method="post" onsubmit="return validacion();">
+      <h1>Register</h1>
+      Name
+      <br>
+      <input type="text" id="nombre" name="nombre">
+      <br>
+      Last Name
+      <br>
+      <input type="text" id="apellido" name="apellido">
+      <br>
+      ID
+      <br>
+      <input type="text" id="dni" name="dni">
+      <br>
+      Phone Number
+      <br>
+      <input type="number" id="telefono" name="telefono">
+      <br>
+      Email
+      <br>
+      <input type="email" id="email" name="email">
+      <br>
+      Password
+      <br>
+      <input type="password" id="password" name="password">
+      <br>
+      Agree the terms and conditions
+      <br>
+      <input type="checkbox" id="aceptar" name="aceptar">
+      <br>
+      <input type="submit" class="boton" name="inscribirse" value="Register">
+      <br>
+    </form>
+    <hr>
+    <form name="formulario" method="post" onsubmit="return validacionlog();">
+      <h1>Login</h1>
+      Email
+      <br>
+      <input type="email" id="email1" name="email">
+      <br>
+      Password
+      <br>
+      <input type="password" id="password1" name="password">
+      <br>
+      <input type="submit" class="boton" name="login" value="Login">
+      <br>
+    </form>
+  </div>
+  <div class="footer">
+    <h4>985621458</h4>
+    <hr>
+    <div id="social">
+      <img class="imagensocial" src="assets/tuirer.png" alt="" width="25" height="25">
+      <h4>@HellsKitchen</h4>
+      <img class="imagensocial" src="assets/feis.png" alt="" width="25" height="25">
+      <h4>HellsKitchen</h4>
+      <img class="imagensocial" src="assets/insta.png" alt="" width="25" height="25">
+      <h4>Hell'sKitchen</h4>
+    </div>
+    <hr>
+    <h4>HellsKitchen@gmail.com</h4>
+    <hr>
+    <h4>&copy; Hell's Kitchen</h4>
+  </div>
+</body>
+
 </html>

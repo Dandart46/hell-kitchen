@@ -2,7 +2,7 @@ html, body{
   margin: 0px;
   height: 100%;
   width: 100%;
-  background-image: url('img/fondohell.jpg');
+  background-image: url('../assets/fondohell.jpg');
   background-attachment: fixed;
   transition: ease-in-out 0.5s;
 }
@@ -54,7 +54,7 @@ button{
   outline:none;
 }
 #imagen{
-  background-image: url('img/hellcabecera.jpg');
+  background-image: url('../assets/hellcabecera.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,16 +96,16 @@ button{
   opacity: 1;
 }
 .contenido#uno{
-  background-image: url('img/cosacomicph.png');
+  background-image: url('../assets/cosacomicph.png');
 }
 .contenido#dos{
-  background-image: url('img/conferenciaph.png');
+  background-image: url('../assets/conferenciaph.png');
 }
 #catalogo{
   height: 600px;
   background-color: white;
   width: 100%;
-  background-image: url('img/ironman.png');
+  background-image: url('../assets/ironman.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right;
@@ -150,7 +150,7 @@ iframe{
 }
 #formulario{
     text-align: center;
-    background-image: url('img/daredovil.png');
+    background-image: url('../assets/daredovil.png');
     background-color: white;
     background-position: center; 
     background-size: 100%;
@@ -213,10 +213,10 @@ input{
 }
 @media (max-width: 650px){
   .contenido#uno{
-  background-image: url('img/cosacomicph2.png');
+  background-image: url('../assets/cosacomicph2.png');
 }
 .contenido#dos{
-  background-image: url('img/conferenciaph2.png');
+  background-image: url('../assets/conferenciaph2.png');
 }
 }
 @media (max-width: 515px){
